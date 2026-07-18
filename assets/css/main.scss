@@ -45,3 +45,11 @@ html[data-theme="dark"] {
 .post strong {
   font-weight: 700;
 }
+
+/* CV dates are labels, not links: keep them neutral and unadorned. */
+#experience .badge.danger-color-dark,
+#education .badge.danger-color-dark {
+  color: var(--global-text-color) !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
