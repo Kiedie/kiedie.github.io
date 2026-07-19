@@ -3,5 +3,51 @@ design:
   theme: classic
   page:
     size: a4
-    show_footer: false
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.70in
+    right_margin: 0.70in
+    show_footer: true
     show_top_note: false
+  colors:
+    name: rgb(28, 59, 88)
+    headline: rgb(44, 104, 223)
+    connections: rgb(28, 59, 88)
+    section_titles: rgb(28, 59, 88)
+    links: rgb(28, 59, 88)
+  typography:
+    font_family: Source Sans 3
+    date_and_location_column_alignment: left
+    font_size:
+      body: 9.25pt
+      name: 30pt
+      headline: 10.5pt
+      connections: 9.5pt
+      section_titles: 1.25em
+    line_spacing: 0.48em
+    alignment: justified
+  header:
+    alignment: left
+    photo_width: 5cm
+    photo_position: right
+    photo_space_left: 0.4cm
+    photo_space_right: 0cm
+    space_below_name: 0.15cm
+    space_below_headline: 0.15cm
+    space_below_connections: 0.35cm
+    connections:
+      separator: ' | '
+      show_icons: false
+  section_titles:
+    type: with_partial_line
+    space_above: 0.32cm
+    space_below: 0.18cm
+  sections:
+    space_between_regular_entries: 0.50em
+    space_between_text_based_entries: 0.18em
+  entries:
+    date_and_location_width: 2.0cm
+    space_between_columns: 0.25cm
+    allow_page_break: False
+  templates:
+    footer: '*NAME - PAGE_NUMBER/TOTAL_PAGES*'
