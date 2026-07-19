@@ -1,29 +1,170 @@
-# Detailed academic CV source.
-# This file is used by RenderCV to generate the downloadable PDF.
-# Fill in the sections below; remove any section you do not want in the PDF.
+# Detailed academic CV source for the downloadable PDF.
 cv:
   name: Juan José Herrera Aranda
-  label: Computer Scientist
-  email: juanjoha@ugr.es
-  location: Spain
-  image: ""
-  summary: ""
+  photo: ../assets/img/yo_cv.jpg
 
-  social_networks:
-    - network: LinkedIn
-      username: jjha99
-    # - network: GitHub
-    #   username: your-github-username
-    # - network: Google Scholar
-    #   username: your-scholar-id
 
   sections:
-    Education: []
-    Experience: []
-    Research Experience: []
-    Teaching Experience: []
-    Publications: []
-    Projects: []
-    Awards: []
-    Skills: []
-    Languages: []
+    Personal Information:
+      - label: Full name
+        details: Juan José Herrera Aranda
+      - label: Email
+        details: '[juanjoha@ugr.es](mailto:juanjoha@ugr.es), [jh16357@gmail.com](mailto:jh16357@gmail.com)'
+      - label: Nationality
+        details: Spanish
+      - label: Birth date
+        details: 1999/07/29
+      - label: Links
+        details: '[Personal website](https://kiedie.github.io/), [Google Scholar](https://scholar.google.com/citations?user=LDsT_WYAAAAJ), [LinkedIn](https://www.linkedin.com/in/jjha99/)'
+
+    Professional Summary:
+      - PhD candidate in Computer Science at the University of Granada, specialising in **zero-shot learning** and semantic-space preprocessing. My research experience encompasses machine learning, deep learning, generative artificial intelligence, and quantum machine learning, supported by a strong interdisciplinary background in mathematics and computer science. I have also conducted research at BBVA and as a visiting PhD student at the University of Nottingham.
+
+    Education:
+      - name: PhD in Computer Science
+        start_date: 2025
+        end_date: present
+        summary: 'Thesis: "Preprocessing the Semantic Space in Zero-Shot Learning", University of Granada, Granada, Spain.'
+        highlights:
+          - 'Supervisors: Isaac Triguero Velázquez, Guillermo Gómez-Trenado, and Francisco Herrera Triguero.'
+      - name: Master's Degree in Data Science and Computer Engineering
+        start_date: 2024
+        end_date: present
+        summary: University of Granada, Granada, Spain.
+        highlights:
+          - Master's thesis in progress.
+      - name: Master's Degree in Quantum Computing
+        start_date: 2022
+        end_date: 2023
+        summary: University of Antonio de Nebrija, Madrid, Spain.
+        highlights:
+          - "Master's thesis: \"Quantum Generative Adversarial Networks.\""
+      - name: Bachelor's Degree in Computer Science
+        start_date: 2018
+        end_date: 2022
+        summary: University of Granada, Granada, Spain.
+        highlights:
+          - 'Specialisation in Machine Learning and Computer Vision.'
+          - "Bachelor's thesis: \"Development of Deep Learning Models Based on Recurrent Neural Networks for the Classification of Electrocardiograms.\""
+      - name: Bachelor's Degree in Mathematics
+        start_date: 2018
+        end_date: 2022
+        summary: University of Granada, Granada, Spain.
+        highlights:
+          - "Bachelor's thesis: \"Development of Deep Learning Models Based on Recurrent Neural Networks for the Classification of Electrocardiograms.\""
+
+    Experience:
+      - name: PhD Student, Predoctoral Fellowship
+        date: 2024 - present
+        summary: Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.
+        highlights:
+          - Funded by a research contract from the Regional Government of Andalusia.
+      - name: Visiting PhD Student
+        date: 2025
+        summary: University of Nottingham, Nottingham, United Kingdom.
+        highlights:
+          - Collaborated in the Computer Vision Lab under the supervision of Shreyank N. Gowda. We worked with diffusion models applied to Zero-Shot Learning.
+      - name: Quantum Computing Researcher
+        date: 2024
+        summary: Banco Bilbao Vizcaya Argentaria (BBVA), Madrid, Spain.
+        highlights:
+          - Research in Quantum Computing and Quantum Machine Learning.
+      - name: Research Assistant, INCIBE Project
+        date: 2023 - 2024
+        summary: University of Granada, Granada, Spain.
+        highlights:
+          - Research on General-Purpose Artificial Intelligence.
+
+    Research:
+      - name: 'Semantic-Inductive Attribute Selection for Zero-Shot Learning'
+        date: 2025
+        summary: 'J. Herrera-Aranda, G. Gómez-Trenado, F. Herrera, and I. Triguero. Logic Journal of the IGPL.'
+      - name: 'A first approach to refine semantic spaces in zero-shot learning with a genetic algorithm'
+        date: 2025
+        summary: 'J. J. Herrera, F. Herrera, and I. Triguero. IEEE Congress on Evolutionary Computation (CEC), pp. 1-4.'
+      - name: 'A preliminary study on preprocessing the semantic space in zero-shot learning'
+        date: 2024
+        summary: 'J. J. Herrera Aranda, F. Herrera, and I. Triguero. International Conference on Hybrid Artificial Intelligence Systems (HAIS), pp. 177-189.'
+      - name: 'Aprendizaje Generalizado de Cero Ejemplos: Revisión del Estado del Arte y Estudio Preliminar de la Influencia del Preprocesamiento'
+        date: 2024
+        summary: XI Simposio Teoría y Aplicaciones de Minería de Datos, Conferencia de la Asociación Española para la Inteligencia Artificial (CAEPIA).
+      - name: 'Quantum Adversarial Generative Networks'
+        date: 2023
+        summary: MSc thesis, University of Nebrija, Spain.
+      - name: 'Development of Deep Learning Models Based on Recurrent Neural Networks for the Classification of Electrocardiograms'
+        date: 2022
+        summary: BSc thesis, University of Granada, Spain.
+
+    Training courses:
+      - name: Agentic AI course
+        date: 2026-07
+        summary: University of Granada, Granada, Spain.
+      - name: International Winter School on General-Purpose Artificial Intelligence
+        date: 2026-02
+        summary: University of Granada, Granada, Spain.
+      - name: International Summer School on Data Science - Trustworthy, Safe and Governable AI
+        date: 2024-07
+        summary: AdiaLab, University of Granada, Granada, Spain.
+
+    Awards:
+      - name: Best Project, International Winter School on General-Purpose Artificial Intelligence
+        date: 2026-02-26
+        summary: University of Granada.
+      - name: Best Project, II DaSCi Pre-Doctoral Workshop
+        date: 2024-12-18
+        summary: University of Granada.
+      - name: Best Project, International Summer School on Data Science - Trustworthy, Safe and Governable AI
+        date: 2024-07-26
+        summary: AdiaLab, University of Granada.
+      
+
+    Teaching:
+      - name: Artificial Intelligence
+        date: 2024 - 2025
+        summary: Bachelor's Degree in Computer Science and Mathematics, University of Granada, Granada, Spain.
+      - name: Data Mining
+        date: 2024 - 2025
+        summary: Bachelor's Degree in Statistics, University of Granada, Granada, Spain.
+      - name: Machine Learning, Teaching Assistant
+        date: 2024 - 2025
+        summary: Bachelor's Degree in Computer Science, University of Granada, Granada, Spain.
+
+    Outreach and Talks:
+      - name: 'Three Minute Thesis Competition'
+        date: 2026
+        summary: Competition organised by the Coimbra Group for PhD students; reached the final. Granada, Spain.
+      - name: 'Poster Session: Zero-Shot Learning'
+        date: 2026
+        summary: Winning final project in General Purpose AI Winter School. Granada, Spain.
+      - name: 'Talk: "Zero-Shot Learning for Image Classification using Generative Models."'
+        date: 2025
+        summary: Talk for the Computer Vision Lab during a visiting period at the University of Nottingham, Nottingham, United Kingdom.
+      - name: Talk on the dangers of ChatGPT
+        date: 2025
+        summary: Pint of Science. Granada, Spain.
+      - name: Poster presentation
+        date: 2025
+        summary: IEEE Congress on Evolutionary Computation. Hangzhou, China.
+      - name: 'Talk: "Preprocessing the Semantic Space in Zero-Shot Learning."'
+        date: 2024
+        summary: 'DaSCi Pre-Doctoral Workshops. Granada, Spain.'
+      - name: Mini-tutorials on using different AI tools
+        date: 2024
+        summary: European Researchers' Night. Granada, Spain.
+      - name: Jailbreaking in Large Language Models.
+        date: 2024
+        summary: 'International Summer School on Data Science: Trustworthy, Safe and Governable AI. Granada, Spain.'
+
+    News and Media:
+      - name: Canal UGR
+        date: 2025
+        summary: Reached the final of the Three Minute Thesis competition.
+      - name: Radiolab UGR
+        date: 2024
+        summary: Invited speaker on a podcast as a PhD student in Artificial Intelligence.
+
+    Languages:
+      - label: Spanish
+        details: Native speaker
+      - label: English
+        details: Fluent

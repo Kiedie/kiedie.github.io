@@ -5,7 +5,6 @@
     "image": "",
     "email": "<a href=\"mailto:juanjoha@ugr.es\">juanjoha@ugr.es</a> · <a href=\"mailto:jh16357@gmail.com\">jh16357@gmail.com</a>",
     "url": "https://kiedie.github.io/",
-    "summary": "",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -89,6 +88,11 @@
   ],
   "awards": [
     {
+      "title": "Best Project in II DaSCi Pre-doctoral Workshop",
+      "date": "2024.12.18",
+      "awarder": "University of Granada"
+    },
+    {
       "title": "Best Project in the International Summer School on Data Science \"Trustworthy, Safe and Governable AI\"",
       "date": "2024.07.26",
       "awarder": "AdiaLab, University of Granada"
@@ -97,11 +101,6 @@
       "title": "Best Project in the International Summer School on General Purpose Artificial Intelligence ",
       "date": "2024.07.26",
       "awarder": "AdiaLab, University of Granada"
-    },
-    {
-      "title": "Best Project in II DaSCi Pre-doctoral Workshop",
-      "date": "2024.12.18",
-      "awarder": "University of Granada"
     }
   ],
   "languages": [
