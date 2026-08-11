@@ -10,6 +10,8 @@ cv:
         details: Juan José Herrera Aranda
       - label: Email
         details: '[juanjoha@ugr.es](mailto:juanjoha@ugr.es), [jh16357@gmail.com](mailto:jh16357@gmail.com)'
+      - label: Phone
+        details: '[+34 663 309 300](tel:+34663309300)'
       - label: Nationality
         details: Spanish
       - label: Birth date
