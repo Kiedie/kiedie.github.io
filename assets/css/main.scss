@@ -53,3 +53,49 @@ html[data-theme="dark"] {
   background-color: transparent !important;
   text-decoration: none !important;
 }
+
+/* Compact language switch, placed immediately after the theme control. */
+.language-toggle-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.25rem;
+}
+
+.language-toggle {
+  display: inline-flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.9rem;
+  height: 2rem;
+  padding: 0 0.4rem;
+  color: var(--global-text-color);
+  font-size: 0.85rem;
+  line-height: 1;
+  text-decoration: none;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.4rem;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  color: var(--global-theme-color);
+  text-decoration: none;
+  border-color: var(--global-theme-color);
+}
+
+.language-toggle span[aria-hidden="true"] {
+  font-size: 1rem;
+}
+
+.language-code {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 575.98px) {
+  .language-toggle-container {
+    margin: 0.5rem 0 0;
+  }
+}

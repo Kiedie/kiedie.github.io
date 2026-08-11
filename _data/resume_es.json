@@ -1,0 +1,107 @@
+{
+  "basics": {
+    "name": "Juan José Herrera Aranda",
+    "label": "Investigador en informática e inteligencia artificial",
+    "image": "",
+    "email": "<a href=\"mailto:juanjoha@ugr.es\">juanjoha@ugr.es</a> · <a href=\"mailto:jh16357@gmail.com\">jh16357@gmail.com</a>",
+    "phone": "<a href=\"tel:+34663309300\">(+34) 663 309 300</a>",
+    "url": "https://kiedie.github.io/",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "jjha99",
+        "url": "https://www.linkedin.com/in/jjha99/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Universidad de Granada",
+      "position": "Estudiante de doctorado, contrato FPI de la Junta de Andalucía",
+      "location": "Granada, España",
+      "startDate": "2025",
+      "endDate": "2026",
+      "summary": "Doctorado en Informática: «Preprocesamiento del espacio semántico en aprendizaje de cero ejemplos»."
+    },
+    {
+      "name": "Universidad de Granada",
+      "position": "Asistente de investigación (proyecto INCIBE)",
+      "location": "Granada, España",
+      "startDate": "2023",
+      "endDate": "2025",
+      "summary": "Investigación en el proyecto INCIBE dentro del ámbito de la inteligencia artificial de propósito general."
+    },
+    {
+      "name": "Banco Bilbao Vizcaya Argentaria S. A. (BBVA)",
+      "position": "Investigador en computación cuántica",
+      "location": "Madrid, España",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Investigación en computación cuántica y aprendizaje automático cuántico."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Granada",
+      "location": "Granada, España",
+      "studyType": "Máster en Ciencia de Datos e Ingeniería de Computadores",
+      "startDate": "2024",
+      "endDate": "2026",
+      "score": "",
+      "courses": ["Trabajo fin de máster en curso."]
+    },
+    {
+      "institution": "Universidad Antonio de Nebrija",
+      "location": "Madrid, España",
+      "studyType": "Máster en Computación Cuántica",
+      "startDate": "2022",
+      "endDate": "2023",
+      "score": "",
+      "courses": ["Trabajo fin de máster: «Redes generativas antagónicas cuánticas»."]
+    },
+    {
+      "institution": "Universidad de Granada",
+      "location": "Granada, España",
+      "area": "Especialización en aprendizaje automático y visión por computador",
+      "studyType": "Grado en Ingeniería Informática",
+      "startDate": "2018",
+      "endDate": "2022",
+      "score": "",
+      "courses": [
+        "Trabajo fin de grado: «Desarrollo de modelos de aprendizaje profundo basados en redes neuronales recurrentes para la clasificación de electrocardiogramas»"
+      ]
+    },
+    {
+      "institution": "Universidad de Granada",
+      "location": "Granada, España",
+      "studyType": "Grado en Matemáticas",
+      "startDate": "2018",
+      "endDate": "2022",
+      "score": "",
+      "courses": [
+        "Trabajo fin de grado: «Desarrollo de modelos de aprendizaje profundo basados en redes neuronales recurrentes para la clasificación de electrocardiogramas»"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Mejor proyecto en las II Jornadas Predoctorales de DaSCi",
+      "date": "2024-12-18",
+      "awarder": "Universidad de Granada"
+    },
+    {
+      "title": "Mejor proyecto en la Escuela Internacional de Verano sobre Ciencia de Datos: inteligencia artificial fiable, segura y gobernable",
+      "date": "2024-07-26",
+      "awarder": "AdiaLab, Universidad de Granada"
+    },
+    {
+      "title": "Mejor proyecto en la Escuela Internacional de Verano sobre Inteligencia Artificial de Propósito General",
+      "date": "2024-07-26",
+      "awarder": "AdiaLab, Universidad de Granada"
+    }
+  ],
+  "languages": [
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "Fluido" }
+  ]
+}

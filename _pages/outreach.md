@@ -3,6 +3,9 @@ layout: page
 permalink: /outreach/
 title: Outreach
 description: 
+lang: en
+translation_key: outreach
+translation_url: /es/divulgacion/
 nav: true
 nav_order: 4
 ---
