@@ -3,6 +3,9 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description:
+lang: en
+translation_key: teaching
+translation_url: /es/docencia/
 nav: true
 nav_order: 6
 calendar: true

@@ -3,6 +3,9 @@ layout: page
 permalink: /research/
 title: Research
 description: Publications by categories in reversed chronological order.
+lang: en
+translation_key: research
+translation_url: /es/investigacion/
 nav: true
 nav_order: 2
 ---

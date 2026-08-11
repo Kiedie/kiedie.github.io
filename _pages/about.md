@@ -2,6 +2,9 @@
 layout: about
 title: About
 permalink: /
+lang: en
+translation_key: home
+translation_url: /es/
 subtitle:
 
 profile:
