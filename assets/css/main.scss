@@ -61,37 +61,48 @@ html[data-theme="dark"] {
   margin-left: 0.25rem;
 }
 
+/* Match #light-toggle's box model (2rem square, borderless, nudged down 4px)
+   so the flags sit on the same visual baseline as the theme toggle. */
 .language-toggle {
   display: inline-flex;
-  gap: 0.25rem;
   align-items: center;
   justify-content: center;
-  min-width: 2.9rem;
+  gap: 0.3rem;
+  width: auto;
   height: 2rem;
-  padding: 0 0.4rem;
+  padding: 0;
+  border: 0;
+  background-color: inherit;
   color: var(--global-text-color);
-  font-size: 0.85rem;
-  line-height: 1;
   text-decoration: none;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.4rem;
+  transform: translateY(4px);
 }
 
-.language-toggle:hover,
-.language-toggle:focus-visible {
-  color: var(--global-theme-color);
-  text-decoration: none;
-  border-color: var(--global-theme-color);
+.language-flag {
+  display: inline-flex;
+  width: 1.35rem;
+  height: 0.9rem;
+  border-radius: 0.15rem;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px var(--global-divider-color);
+  transition: filter 0.15s ease;
 }
 
-.language-toggle span[aria-hidden="true"] {
-  font-size: 1rem;
+.language-flag svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-.language-code {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+/* The active language's own flag darkens; the other stays at full
+   color as the clickable target. */
+.language-flag.is-current {
+  filter: brightness(0.55);
+}
+
+.language-toggle:hover .language-flag.is-current,
+.language-toggle:focus-visible .language-flag.is-current {
+  filter: brightness(0.7);
 }
 
 @media (max-width: 575.98px) {

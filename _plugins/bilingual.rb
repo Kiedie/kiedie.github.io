@@ -58,10 +58,19 @@ module CurriculumBilingual
     end
   end
 
+  FLAG_SVG = {
+    "es" => %(<svg viewBox="0 0 3 2" role="img" aria-hidden="true"><rect width="3" height="2" fill="#AA151B"/><rect y="0.5" width="3" height="1" fill="#F1BF00"/></svg>),
+    "en" => %(<svg viewBox="0 0 30 20" role="img" aria-hidden="true"><rect width="30" height="20" fill="#00247D"/><path d="M0,0 L30,20 M30,0 L0,20" stroke="#FFFFFF" stroke-width="4"/><path d="M0,0 L30,20 M30,0 L0,20" stroke="#CF142B" stroke-width="2"/><path d="M15,0 V20 M0,10 H30" stroke="#FFFFFF" stroke-width="7"/><path d="M15,0 V20 M0,10 H30" stroke="#CF142B" stroke-width="4"/></svg>),
+  }.freeze
+
+  def flag_span(flag_lang, current_lang)
+    current = flag_lang == current_lang
+    sr_note = current ? %(<span class="sr-only">(#{current_lang == "es" ? "actual" : "current"})</span>) : ""
+    %(<span class="language-flag lang-#{flag_lang}#{" is-current" if current}">#{FLAG_SVG.fetch(flag_lang)}#{sr_note}</span>)
+  end
+
   def add_language_switch(document, page, lang)
     alternate_lang = lang == "es" ? "en" : "es"
-    flag = lang == "es" ? "🇬🇧" : "🇪🇸"
-    code = alternate_lang.upcase
     label = lang == "es" ? "View this page in English" : "Ver esta página en español"
 
     item = Nokogiri::XML::Node.new("li", document)
@@ -73,7 +82,7 @@ module CurriculumBilingual
     anchor["hreflang"] = alternate_lang
     anchor["title"] = label
     anchor["aria-label"] = label
-    anchor.inner_html = %(<span aria-hidden="true">#{flag}</span><span class="language-code">#{code}</span>)
+    anchor.inner_html = "#{flag_span('es', lang)}#{flag_span('en', lang)}"
     item.add_child(anchor)
 
     theme_toggle = document.at_css("#navbar .toggle-container")
