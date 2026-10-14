@@ -193,7 +193,7 @@ PhD candidate in Computer Science at the University of Granada, specialising in 
 
   ],
   [
-    2024 – present
+    2023 – present
 
   ],
 )
@@ -274,7 +274,7 @@ PhD candidate in Computer Science at the University of Granada, specialising in 
 
   ],
   [
-    2024 - present
+    2023 - present
 
   ],
 )
