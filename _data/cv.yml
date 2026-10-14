@@ -24,7 +24,7 @@ cv:
 
     Education:
       - name: PhD in Computer Science
-        start_date: 2024
+        start_date: 2023
         end_date: present
         summary: 'Thesis: "Preprocessing the Semantic Space in Zero-Shot Learning", University of Granada, Granada, Spain.'
         highlights:
@@ -58,7 +58,7 @@ cv:
 
     Experience:
       - name: PhD Student, Predoctoral Fellowship
-        date: 2024 - present
+        date: 2023 - present
         summary: Department of Computer Science and Artificial Intelligence, University of Granada, Granada, Spain.
         highlights:
           - Funded by a research contract from the Regional Government of Andalusia.
