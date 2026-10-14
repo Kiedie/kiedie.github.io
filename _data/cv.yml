@@ -31,10 +31,11 @@ cv:
           - 'Supervisors: Isaac Triguero Velázquez, Guillermo Gómez-Trenado, and Francisco Herrera Triguero.'
       - name: Master's Degree in Data Science and Computer Engineering
         start_date: 2024
-        end_date: present
+        end_date: 2026
         summary: University of Granada, Granada, Spain.
         highlights:
-          - Master's thesis in progress.
+          - 'Final grade: 9.26/10; GPA: 3.063/4.'
+          - 'Master''s thesis: "Semantic-Inductive Attribute Selection for Zero-Shot Learning."'
       - name: Master's Degree in Quantum Computing
         start_date: 2022
         end_date: 2023
