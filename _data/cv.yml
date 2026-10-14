@@ -24,7 +24,7 @@ cv:
 
     Education:
       - name: PhD in Computer Science
-        start_date: 2025
+        start_date: 2024
         end_date: present
         summary: 'Thesis: "Preprocessing the Semantic Space in Zero-Shot Learning", University of Granada, Granada, Spain.'
         highlights:
@@ -43,14 +43,14 @@ cv:
         highlights:
           - "Master's thesis: \"Quantum Generative Adversarial Networks.\""
       - name: Bachelor's Degree in Computer Science
-        start_date: 2018
+        start_date: 2017
         end_date: 2022
         summary: University of Granada, Granada, Spain.
         highlights:
           - 'Specialisation in Machine Learning and Computer Vision.'
           - "Bachelor's thesis: \"Development of Deep Learning Models Based on Recurrent Neural Networks for the Classification of Electrocardiograms.\""
       - name: Bachelor's Degree in Mathematics
-        start_date: 2018
+        start_date: 2017
         end_date: 2022
         summary: University of Granada, Granada, Spain.
         highlights:
@@ -67,16 +67,16 @@ cv:
         summary: University of Nottingham, Nottingham, United Kingdom.
         highlights:
           - Collaborated in the Computer Vision Lab under the supervision of Shreyank N. Gowda. We worked with diffusion models applied to Zero-Shot Learning.
-      - name: Quantum Computing Researcher
-        date: 2024
-        summary: Banco Bilbao Vizcaya Argentaria (BBVA), Madrid, Spain.
-        highlights:
-          - Research in Quantum Computing and Quantum Machine Learning.
       - name: Research Assistant, INCIBE Project
-        date: 2023 - 2024
+        date: 2023 - 2025
         summary: University of Granada, Granada, Spain.
         highlights:
           - Research on General-Purpose Artificial Intelligence.
+      - name: Quantum Computing Researcher
+        date: 2023
+        summary: Banco Bilbao Vizcaya Argentaria (BBVA), Madrid, Spain.
+        highlights:
+          - Research in Quantum Computing and Quantum Machine Learning.
 
     Research:
       - name: 'Semantic-Inductive Attribute Selection for Zero-Shot Learning'
@@ -122,14 +122,20 @@ cv:
       
 
     Teaching:
+      - name: Theory of Computation
+        date: 2026 - 2027
+        summary: Bachelor's Degree in Computer Science and Mathematics, University of Granada, Granada, Spain.
+      - name: Introduction to Data Science
+        date: 2026 - 2027
+        summary: Bachelor's Degree in Data Science and Artificial Intelligence, University of Granada, Granada, Spain.
       - name: Artificial Intelligence
-        date: 2024 - 2025
+        date: 2025 - 2026
         summary: Bachelor's Degree in Computer Science and Mathematics, University of Granada, Granada, Spain.
       - name: Data Mining
-        date: 2024 - 2025
+        date: 2025 - 2026
         summary: Bachelor's Degree in Statistics, University of Granada, Granada, Spain.
       - name: Machine Learning, Teaching Assistant
-        date: 2024 - 2025
+        date: 2025 - 2026
         summary: Bachelor's Degree in Computer Science, University of Granada, Granada, Spain.
 
     Outreach and Talks:

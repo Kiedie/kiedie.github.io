@@ -19,8 +19,8 @@
       "name": "Universidad de Granada",
       "position": "Estudiante de doctorado, contrato FPI de la Junta de Andalucía",
       "location": "Granada, España",
-      "startDate": "2025",
-      "endDate": "2026",
+      "startDate": "2024",
+      "endDate": "",
       "summary": "Doctorado en Informática: «Preprocesamiento del espacio semántico en aprendizaje de cero ejemplos»."
     },
     {
@@ -35,8 +35,8 @@
       "name": "Banco Bilbao Vizcaya Argentaria S. A. (BBVA)",
       "position": "Investigador en computación cuántica",
       "location": "Madrid, España",
-      "startDate": "2024",
-      "endDate": "2024",
+      "startDate": "2023",
+      "endDate": "2023",
       "summary": "Investigación en computación cuántica y aprendizaje automático cuántico."
     }
   ],
@@ -48,7 +48,7 @@
       "startDate": "2024",
       "endDate": "2026",
       "score": "9,26/10; 3,063/4",
-      "courses": ["Máster finalizado en 2026.", "Trabajo fin de máster: «Semantic-Inductive Attribute Selection for Zero-Shot Learning»."]
+      "courses": ["Trabajo fin de máster: «Semantic-Inductive Attribute Selection for Zero-Shot Learning»."]
     },
     {
       "institution": "Universidad Antonio de Nebrija",
@@ -64,7 +64,7 @@
       "location": "Granada, España",
       "area": "Especialización en aprendizaje automático y visión por computador",
       "studyType": "Grado en Ingeniería Informática",
-      "startDate": "2018",
+      "startDate": "2017",
       "endDate": "2022",
       "score": "",
       "courses": [
@@ -75,7 +75,7 @@
       "institution": "Universidad de Granada",
       "location": "Granada, España",
       "studyType": "Grado en Matemáticas",
-      "startDate": "2018",
+      "startDate": "2017",
       "endDate": "2022",
       "score": "",
       "courses": [

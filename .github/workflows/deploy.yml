@@ -91,6 +91,10 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Render downloadable CV
+        run: |
+          pip3 install 'rendercv[full]'
+          rendercv render _data/cv.yml --design assets/rendercv/design.yaml --locale-catalog assets/rendercv/locale.yaml --settings assets/rendercv/settings.yaml
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

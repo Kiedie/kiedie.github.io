@@ -19,8 +19,8 @@
       "name": "University of Granada",
       "position": "PhD Student, FPI Scholarship/Contract Junta de Andalucia",
       "location": "Granada, Spain",
-      "startDate": "2025",
-      "endDate": "2026",
+      "startDate": "2024",
+      "endDate": "",
       "summary": "PhD. in Computer Science: \"Preprocessing the Semantic Space in Zero-Shot Learning.\" "
     },
     {
@@ -35,8 +35,8 @@
       "name": "Banco Bilbao Vizcaya Argentaria S.A. (BBVA)",
       "position": "Quantum Computing Researcher",
       "location": "Madrid, Spain",
-      "startDate": "2024",
-      "endDate": "2024",
+      "startDate": "2023",
+      "endDate": "2023",
       "summary": "Researcher in Quantum Computing and Quantum Machine Learning."
     }
   ],
@@ -49,7 +49,6 @@
       "endDate": "2026",
       "score": "9.26/10; 3.063/4",
       "courses": [
-        "Master's degree completed in 2026.",
         "Master's thesis: \"Semantic-Inductive Attribute Selection for Zero-Shot Learning.\""
       ]
     },
@@ -69,7 +68,7 @@
       "location": "Granada, Spain",
       "area": "Specialization in Machine Learning and Computer Vision",
       "studyType": "Bachelor's Degree in Computer Science",
-      "startDate": "2018",
+      "startDate": "2017",
       "endDate": "2022",
       "score": "",
       "courses": [
@@ -80,7 +79,7 @@
       "institution": "University of Granada",
       "location": "Granada, Spain",
       "studyType": "Bachelor's Degree in Mathematics",
-      "startDate": "2018",
+      "startDate": "2017",
       "endDate": "2022",
       "score": "",
       "courses": [
