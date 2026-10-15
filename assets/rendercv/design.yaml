@@ -36,7 +36,7 @@ design:
     space_below_headline: 0.15cm
     space_below_connections: 0.35cm
     connections:
-      separator: ' | '
+      separator: " | "
       show_icons: false
   section_titles:
     type: with_partial_line
@@ -50,4 +50,4 @@ design:
     space_between_columns: 0.25cm
     allow_page_break: False
   templates:
-    footer: '*NAME - PAGE_NUMBER/TOTAL_PAGES*'
+    footer: "*NAME - PAGE_NUMBER/TOTAL_PAGES*"

@@ -15,7 +15,7 @@
     ]
   },
   "work": [
-        {
+    {
       "name": "University of Granada",
       "position": "PhD Student, FPI Scholarship/Contract Junta de Andalucia",
       "location": "Granada, Spain",
@@ -48,9 +48,7 @@
       "startDate": "2024",
       "endDate": "2026",
       "score": "9.26/10; 3.063/4",
-      "courses": [
-        "Master's thesis: \"Semantic-Inductive Attribute Selection for Zero-Shot Learning.\""
-      ]
+      "courses": ["Master's thesis: \"Semantic-Inductive Attribute Selection for Zero-Shot Learning.\""]
     },
     {
       "institution": "University of Antonio de Nebrija",
@@ -59,9 +57,7 @@
       "startDate": "2022",
       "endDate": "2023",
       "score": "",
-      "courses": [
-        "Msc. thesis: \"Quantum Generative Adversarial Networks.\""
-      ]
+      "courses": ["Msc. thesis: \"Quantum Generative Adversarial Networks.\""]
     },
     {
       "institution": "University of Granada",

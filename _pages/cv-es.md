@@ -47,6 +47,7 @@ toc:
 
 {% if resume.work.size > 0 %}
 <a class="anchor" id="experiencia"></a>
+
 <div class="card mt-3 p-3">
 <h3 class="card-title font-weight-medium">Experiencia</h3>
 {% assign entries = resume.work %}
@@ -56,6 +57,7 @@ toc:
 
 {% if resume.education.size > 0 %}
 <a class="anchor" id="formacion"></a>
+
 <div class="card mt-3 p-3">
 <h3 class="card-title font-weight-medium">Formación académica</h3>
 {% assign entries = resume.education %}
@@ -65,6 +67,7 @@ toc:
 
 {% if resume.awards.size > 0 %}
 <a class="anchor" id="premios"></a>
+
 <div class="card mt-3 p-3">
 <h3 class="card-title font-weight-medium">Premios</h3>
 {% assign entries = resume.awards %}
@@ -74,6 +77,7 @@ toc:
 
 {% if resume.languages.size > 0 %}
 <a class="anchor" id="idiomas"></a>
+
 <div class="card mt-3 p-3">
 <h3 class="card-title font-weight-medium">Idiomas</h3>
 {% assign entries = resume.languages %}

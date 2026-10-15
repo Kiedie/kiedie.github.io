@@ -11,10 +11,9 @@ nav_order: 6
 calendar: true
 ---
 
-
 Here you can find a list of courses I have taught or am currently teaching. Take a look at them, and feel free to contact me if you are interested in any of the topics.
 
-----------------
+---
 
 **(2025--2026) Artificial Intelligence**, Bachelor's Degree in Computer Science and Mathematics, University of Granada. [[link to the course](https://grados.ugr.es/sites/grados/default/public/guias-firmadas/2025-2026/297113A.pdf)]
 
@@ -25,4 +24,3 @@ Here you can find a list of courses I have taught or am currently teaching. Take
 **(2026--2027) Theory of Computation**, Bachelor's Degree in Computer Sciencie and Mathematics, University of Grabada [[link to the course](https://grados.ugr.es/informaticaymatematicas/docencia/plan-estudios/modelos-computacion)] [[link to materials](https://github.com/Kiedie/Computational_Models_Teaching)]
 
 **(2026--2027) Introduction to Data Science**, Bachelor's Degree in Computer Sciencie and Artificial Intelligence, University of Grabada [[link to the course](https://www.ugr.es/estudiantes/grados/ciencia-dato-inteligencia-artificial/introduccion-ciencia-datos)]
-

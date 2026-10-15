@@ -4,7 +4,7 @@
 cv_pdf: /assets/rendercv/rendercv_output/juanjo_herrera_aranda_cv.pdf # path to your CV PDF file
 email: juanjoha@ugr.es # your email address
 #rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: LDsT_WYAAAAJ 
+scholar_userid: LDsT_WYAAAAJ
 linkedin_username: jjha99
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
